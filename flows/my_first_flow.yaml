@@ -1,0 +1,7 @@
+id: my_first_flow
+namespace: dev
+
+tasks:
+  - id: hello
+    type: io.kestra.plugin.core.log.Log
+    message: Gitから自動同期されたフローです！
